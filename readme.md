@@ -4,6 +4,11 @@
 - clone this submodule in `kirby` folder
 - 🤞
 
+### Notes
+
+- see also https://github.com/rasteiner/k2-kirby-compat
+- this still had some trouble w/ certain markdown parsing
+
 # Kirby v2 Core
 
 Please refer to the [Kirby Starterkit](http://github.com/getkirby-v2/starterkit)
