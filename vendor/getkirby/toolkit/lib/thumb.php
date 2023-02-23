@@ -330,7 +330,7 @@ thumb::$drivers['im'] = function($thumb) {
 thumb::$drivers['gd'] = function($thumb) {
 
   try {
-    $img = new abeautifulsite\SimpleImage($thumb->root());
+    $img = new claviska\SimpleImage($thumb->root());
     $img->quality = $thumb->options['quality'];
 
     if($thumb->options['crop']) {
@@ -353,7 +353,7 @@ thumb::$drivers['gd'] = function($thumb) {
       $img->auto_orient();
     }    
 
-    @$img->save($thumb->destination->root);
+    @$img->toFile($thumb->destination->root);
   } catch(Exception $e) {
     $thumb->error = $e;
   }
