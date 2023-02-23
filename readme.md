@@ -1,3 +1,9 @@
+## How To Use
+
+- remove old `kirby` submodule
+- clone this submodule in `kirby` folder
+- 🤞
+
 # Kirby v2 Core
 
 Please refer to the [Kirby Starterkit](http://github.com/getkirby-v2/starterkit)
